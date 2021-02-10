@@ -10,7 +10,7 @@ The steps followed were:
 4. Open `CMake` 
 5. Set "Where is the source code to" `C:/TASMANIAN/TASMANIAN-7.0`
 6. Set "Where to build the binaries to" `C:/TASMANIAN/TASMANIAN-7.0/build`
-7. Press `Configure` and choose "Visual Studio 16 2019" and "x64"
+7. Press `Configure` and choose "Visual Studio 17 2017" and "x64"
 8. Change `CMAKE_INSTALL_PREFIX` to `C:/TASMANIAN-7.0`
 9. Clik on `Tasmanian_ENABLE_RECOMMENDED`
 10. Pres `Generate`
