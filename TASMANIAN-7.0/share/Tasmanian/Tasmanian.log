@@ -1,0 +1,27 @@
+--------------------------------------------------------------------------------
+Tasmanian Install Complete: Installed Version 7.0
+
+executable:
+    tasgrid
+static libraries:
+    tasmaniansparsegrid_static.lib
+    tasmaniandream_static.lib
+shared libraries:
+    tasmaniansparsegrid.dll
+    tasmaniandream.dll
+
+see the examples:
+    C:/TASMANIAN-7.0/share/Tasmanian/examples/
+
+bash environment setup:
+    source C:/TASMANIAN-7.0/config/TasmanianENVsetup.sh
+
+cmake package config:
+    find_package(Tasmanian 7.0.0 PATHS "C:/TASMANIAN-7.0/lib/")
+
+    targets: Tasmanian::tasgrid    (executable)
+             Tasmanian::static     (static libraries)
+             Tasmanian::shared     (shared libraries)
+             Tasmanian::Tasmanian  (alias to static/shared)
+
+--------------------------------------------------------------------------------

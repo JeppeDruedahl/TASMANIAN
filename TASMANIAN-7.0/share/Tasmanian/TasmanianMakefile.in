@@ -1,0 +1,4 @@
+Tasmanian_include = -IC:/TASMANIAN-7.0/include/
+Tasmanian_link = -LC:/TASMANIAN-7.0/lib/
+Tasmanian_libs = -ltasmaniandream -ltasmaniansparsegrid  Tasmanian_list-NOTFOUND
+Tarmanian_fortran_libs = -ltasmanianfortran90 $(Tasmanian_libs) -lstdc++
